@@ -1,0 +1,208 @@
+/* THIS PAGE IS THE STYLE FOR ALL SIZES */
+
+body{
+		padding: 0;
+		margin: 0;
+		background-image: url("bckpedal.jpg");
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
+}
+
+h1{
+	color: #ff004e;
+}
+
+h2{
+	color: white;
+		text-shadow: 0 0 10px #3f7995, 0 0 20px #3f7995, 0 0 30px #8adaff, 0 0 40px #8adaff, 0 0 70px #8adaff, 0 0 80px #8adaff, 0 0 100px #8adaff, 0 0 150px #8adaff;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-size: 93%;
+	line-height: 1.5em;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+/* Section Inner */
+div.section-inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+/* Header */
+div.header {
+	background-image: url("banner.jpg");
+	padding: 40px 0;
+}
+
+/* Navigation */
+div.nav {
+	background-color: #78573c;
+}
+
+div.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 100%;
+}
+
+div.nav ul li a:link,
+div.nav ul li a:visited {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;
+	border-right: 1px solid white;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0036ff, 0 0 70px #0036ff, 0 0 80px #0036ff, 0 0 100px #0036ff, 0 0 150px #0036ff;
+}
+
+/************ SEARCH BOX ****************/
+	#tfheader{
+		background-color:none;
+	}
+	#tfnewsearch{
+		float:right;
+		padding: 5px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: none;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+/************ END OF SEARCH BOX ****************/
+
+
+/* Body Content */
+div.body-content {
+	padding: 0px 0; /* MOVE WHOLE INSIDE DIV BOX */
+	margin-top: 0px;
+}
+
+div.bodybackground {
+	padding: 50px 0; /* MOVE PARAGRAPHS INSIDE DIV BOX */
+	background-image: url("whitebck.png");
+	border-radius: 50px;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+div.livelife {
+	padding: 0px;
+	margin: 0px 0px 0px 45px;
+	height: 30px;
+}
+/* Thirds */
+div.thirds {
+	padding-bottom: 50px;
+}
+
+div.one-third {
+	width: 28%;
+	float: left;
+	margin-right: 5%;
+	background-image: url("whitebck.png");
+	border-radius: 15px;
+	padding: 5px;
+}
+
+div.one-third-one {
+	margin-top: 25px;
+}
+
+div.one-third-last {
+	margin: 0;
+}
+
+/* Main Column */
+div.main {
+	width: 65%;
+	float: left;
+	margin-right: 5%;
+}
+
+/* Side Column */
+div.side {
+	width: 30%;
+	float: left;
+}
+
+/* Info Box */
+div.info-box-a {
+	background-image: url("pink.png");
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
+
+div.info-box-b {
+	background-image: url("pink.png");
+	border-radius: 20px;	
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
+
+/* Footer */
+div.footer {
+	background-image: url("blackbck.png");
+	color: #FFF;
+	padding: 15px 0;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
